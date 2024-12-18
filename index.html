@@ -3,11 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Página</title>
+    <title>Página de Caio Felipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #6200ea;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #3700b3;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #6200ea;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem-vindo à minha página HTML!</h1>
-    <p>Essa é minha primeira página criada com HTML e hospedada na web.</p>
-    <a href="https://github.com/seu-usuario">Visite meu repositório no GitHub</a>
+    <header>
+        <h1>Bem-vindo à Página de Caio Felipe!</h1>
+        <p>Essa é uma demonstração de HTML com estilos simples.</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou Caio Felipe, um estudante aprendendo HTML e web design. Estou animado para compartilhar meu progresso com vocês!</p>
+        </section>
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <ul>
+                <li>Projeto 1: Página de Portfólio</li>
+                <li>Projeto 2: Loja Virtual</li>
+                <li>Projeto 3: Blog de Viagens</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você pode me encontrar no <a href="https://github.com/caliopelin" target="_blank">meu GitHub</a> ou enviar um e-mail para <a href="mailto:caiofelipe@example.com">caiofelipe@example.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Página de Caio Felipe. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
+
